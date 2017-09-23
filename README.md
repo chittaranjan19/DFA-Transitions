@@ -10,12 +10,5 @@ First row contains the alphabets separated by tabs. Assume that the alphabet wha
 
 In each of the entries, i is used to indicate a state qi. After all the rows of the transition table are done, there is one blank line, following which the state numbers of the final states are mentioned(tab separated).
 
-So, the transition table file for the DFA which accepts the set of all strings that DO NOT contain aab (the alphabet is: {a,b,c}) is as follows:
+The transition table file for the DFA which accepts the set of all strings that DO NOT contain aab (the alphabet is: {a,b,c}) is provided as an example (file.txt)
 
-a	b	c
-1	0	0
-2	0	0
-2	3	0
-3	3	3
-
-0	1	2
